@@ -77,9 +77,10 @@ func main() {
 		RemoteName: "origin",
 		Auth: &httpGit.BasicAuth{
 			Username: "nnowaf",
-			Password: "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",
+			Password: "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",
 		},
 	})
+	checkError(errPlain)
 
 	fmt.Println("Done")
 }
